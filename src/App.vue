@@ -29,9 +29,9 @@
 }
 
 header {
-  height: 70px;
+  height: 50px;
   background-color: #42b983;
-  line-height: 4rem;
+  line-height: 3rem;
 }
 #nav {
   padding: 30px;
@@ -47,7 +47,7 @@ header {
 }
 li {
   list-style: none;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: left;
 }
 
