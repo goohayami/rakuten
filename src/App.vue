@@ -8,6 +8,8 @@
       <li><router-link to="/beef">ぎゅうにく</router-link></li>
       <li><router-link to="/chicken">とりにく</router-link></li>
       <li><router-link to="/pork">ぶたにく</router-link></li>
+      <li><router-link to="/fish">おさかな</router-link></li>
+      <li><router-link to="/vegetable">おやさい</router-link></li>
       <li><router-link to="/china">ちゅうか</router-link></li>
     </div>
     <div class="router-container">

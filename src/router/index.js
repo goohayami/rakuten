@@ -6,6 +6,8 @@ import Beef from "../views/Beef.vue";
 import Pork from "../views/Pork.vue";
 import Chicken from "../views/Chicken.vue";
 import China from "../views/China.vue";
+import Fish from "../views/Fish.vue";
+import Vegetable from "../views/Vegetable.vue";
 
 const routes = [
   {
@@ -42,6 +44,16 @@ const routes = [
     path: "/china/",
     name: "China",
     component: China,
+  },
+  {
+    path: "/fish/",
+    name: "Fish",
+    component: Fish,
+  },
+  {
+    path: "/vegetable/",
+    name: "Vegetable",
+    component: Vegetable,
   },
 ];
 
