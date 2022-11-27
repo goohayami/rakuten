@@ -2,8 +2,10 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/HomeView.vue";
 import Egg from "../views/Egg.vue";
 import Poteto from "../views/poteto.vue";
-import Jobs from "../views/jobs/Jobs.vue";
-import JobDetails from "../views/jobs/JobDetails.vue";
+import Beef from "../views/Beef.vue";
+import Pork from "../views/Pork.vue";
+import Chicken from "../views/Chicken.vue";
+import China from "../views/China.vue";
 
 const routes = [
   {
@@ -22,14 +24,24 @@ const routes = [
     component: Poteto,
   },
   {
-    path: "/jobs",
-    name: "Jobs",
-    component: Jobs,
+    path: "/beef/",
+    name: "Beef",
+    component: Beef,
   },
   {
-    path: "/jobs/:id",
-    name: "JobDetails",
-    component: JobDetails,
+    path: "/chicken/",
+    name: "Chicken",
+    component: Chicken,
+  },
+  {
+    path: "/pork/",
+    name: "Pork",
+    component: Pork,
+  },
+  {
+    path: "/china/",
+    name: "China",
+    component: China,
   },
 ];
 

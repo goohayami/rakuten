@@ -1,11 +1,14 @@
 <template>
-  <header>this erea is header</header>
+  <header><h1>楽天レシピ人気ランキング</h1></header>
   <div class="main-container">
     <div id="nav">
-      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/">ほーむ</router-link></li>
       <li><router-link to="/egg">たまご</router-link></li>
-      <li><router-link to="/poteto">フライドポテト</router-link></li>
-      <li><router-link to="/jobs">Jobs</router-link></li>
+      <li><router-link to="/poteto">じゃがいも</router-link></li>
+      <li><router-link to="/beef">ぎゅうにく</router-link></li>
+      <li><router-link to="/chicken">とりにく</router-link></li>
+      <li><router-link to="/pork">ぶたにく</router-link></li>
+      <li><router-link to="/china">ちゅうか</router-link></li>
     </div>
     <div class="router-container">
       <router-view />

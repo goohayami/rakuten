@@ -37,7 +37,7 @@ export default {
     getIp(params) {
       this.axios
         .get(
-          "https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20170426?format=json&categoryId=33&formatVersion=2&applicationId=1051866580926994357"
+          "https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20170426?format=json&formatVersion=2&categoryId=10-277&applicationId=1051866580926994357"
         )
         .then((res) => {
           console.log(res.data);
