@@ -18,7 +18,8 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -28,13 +29,14 @@
 header {
   height: 70px;
   background-color: #42b983;
+  line-height:4rem;
 }
 #nav {
   padding: 30px;
   widows: 400px;
   font-size: 30px;
 
-  /* background-color: wheat;vlera */
+  background-color: rgb(233, 242, 243);
 }
 
 #nav a {
