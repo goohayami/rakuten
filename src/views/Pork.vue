@@ -7,33 +7,33 @@
       <div id="rank1"></div>
       <div id="recipeTitle1"></div>
       <img id="img1" src="img1" alt="" />
-      <br>
+      <br />
       <a id="recipeUrl1" href="recipeUrl1"></a>
-      <hr>
+      <hr />
     </div>
     <div class="no2">
       <div id="rank2"></div>
       <div id="recipeTitle2"></div>
       <img id="img2" src="img2" alt="" />
-      <br>
+      <br />
       <a id="recipeUrl2" href="recipeUrl2"></a>
-      <hr>
+      <hr />
     </div>
     <div class="no3">
       <div id="rank3"></div>
       <div id="recipeTitle3"></div>
       <img id="img3" src="img3" alt="" />
-      <br>
+      <br />
       <a id="recipeUrl3" href="recipeUrl3"></a>
-      <hr>
+      <hr />
     </div>
     <div class="no4">
       <div id="rank4"></div>
       <div id="recipeTitle4"></div>
       <img id="img4" src="img4" alt="" />
-      <br>
+      <br />
       <a id="recipeUrl4" href="recipeUrl4"></a>
-      <hr>
+      <hr />
     </div>
   </div>
 </template>
@@ -105,6 +105,9 @@ body {
 #recipeTitle3,
 #recipeTitle4 {
   text-align: left;
+}
+#rank1 {
+  color: red;
 }
 .no1 {
   justify-content: center;

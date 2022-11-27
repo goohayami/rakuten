@@ -18,7 +18,7 @@
 
 <style>
 #app {
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: "M PLUS 1p", sans-serif;
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,7 +29,7 @@
 header {
   height: 70px;
   background-color: #42b983;
-  line-height:4rem;
+  line-height: 4rem;
 }
 #nav {
   padding: 30px;
@@ -58,9 +58,7 @@ nav a.router-link-exact-active {
 }
 
 .router-container {
-  text-align: center;
-  justify-content: center;
-  /* margin-left: 20%; */
+  max-width: 200px;
   margin-right: auto;
   margin-left: auto;
 }

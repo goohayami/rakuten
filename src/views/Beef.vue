@@ -106,6 +106,9 @@ body {
 #recipeTitle4 {
   text-align: left;
 }
+#rank1 {
+  color: red;
+}
 .no1 {
   justify-content: center;
   text-align: center;
